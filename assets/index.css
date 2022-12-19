@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 36vw;
+   /* display: flex;
+    flex-direction: row;
+    align-content:space-around;*/
+    width: 100%;
+}
+#logo {
+    margin: 1em;
+    width: 10%;
+
+}
+#title {
+    color: rgb(239, 235, 228);
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    width: 70%
+}
+section {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: rgb(48, 48, 48);
+    color: rgb(239, 235, 228);
+    text-align: center;
+    width: 90%;
+    padding: 1em;
+    border-radius: 20px;
+}
+section h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+section p {
+    font-size: 20px;
+}
